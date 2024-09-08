@@ -7,6 +7,10 @@ Welcome to the repository of "Little Taco Shop" wesbite.
 
 ![Screenshot of Project](assets/screenshot/screenshot.jpg)
 
+## Live Demo
+
+* You can check out the live demo of the project here [The Little Taco Shop](https://premkrrajbhar.github.io/taco-project/)
+
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Description](#description)
@@ -40,7 +44,9 @@ This project includes three HTML documents
 - A header details with a navigation links.
 - An image and caption of taco.
 - A contact form for sending messages and the messages will goes to [httpbin.org](https://httpbin.org/), A simple HTTP Request & Response Service.
-- Location and Contact details. 
+- Location and Contact details.
+
+**Note** : The HTML documents of this project have been validated using the [W3C Markup Validation Service](https://validator.w3.org/). This ensures that the code adheres to web standards and is free of syntax errors.
 
 ## Features 
 
