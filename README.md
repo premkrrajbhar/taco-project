@@ -1,7 +1,7 @@
 
 # The Little Taco Shop
   
-Welcome to the repository of "Little Taco Shop" wesbite.
+Welcome to the repository of "Little Taco Shop" website.
 
 ## Demo Screenshot
 
@@ -16,9 +16,10 @@ Welcome to the repository of "Little Taco Shop" wesbite.
 2. [Description](#description)
 3. [Features](#features)
 4. [Technologies Used](#technologies-used)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [Contact](#contact)
+5. [Security and Privacy Enhancements](#security-and-privacy-enhancements)
+6. [Usage](#usage)
+7. [Contributing](#contributing)
+8. [Contact](#contact)
 
 ## Project Overview
 
@@ -50,7 +51,7 @@ This project includes three HTML documents
 
 ## Features 
 
-- **Responsive Design** : The site is desigmed to be responsive and adjust to different screen sizes.
+- **Responsive Design** : The site is designed to be responsive and adjust to different screen sizes.
 - **Navigation** : Each pages includes a navigation menu to easily access other pages within the site.
 - **Better SEO** : The site focus on better Search Engine Optimization (SEO) so the search engines ranks the site in the top.
 - **Store Hours Page** : Details about operating hours of the shop.
@@ -63,6 +64,16 @@ This project includes three HTML documents
 - **Meta Tags** : To index webpage in search engines.
 - **httpbin.org** : To send input of contact us page to check HTML form.
 - **IDE** : Visual Studio Code
+
+## Security and Privacy Enhancements
+
+To improve the security and privacy of the website, `rel="noopener noreferrer"` has been added to all anchor (`<a>`) tags that open links in a new tab or window (`target="_blank"`). 
+
+### What This Change Does:
+- **Security:** The `rel="noopener"` attribute prevents the newly opened page from accessing the `window.opener` object of the original page, mitigating potential security risks.
+- **Privacy:** The `rel="noreferrer"` attribute prevents the browser from sending the `Referer` header to the destination site, protecting user privacy by not revealing the URL of the original page.
+
+These changes ensure a safer and more private browsing experience for users interacting with external and internal links on the site.
 
 ## Usage
 
