@@ -27,7 +27,7 @@ This project consists of a static website that provides information about a loca
 
 ## Description 
 
-This project includes three HTML documents 
+This project includes three HTML documents and one CSS document
 
 1. **index.html** : The Home page for the "Little Taco Shop" that includes:
 - A header with a navigation links.
@@ -47,7 +47,9 @@ This project includes three HTML documents
 - A contact form for sending messages and the messages will goes to [httpbin.org](https://httpbin.org/), A simple HTTP Request & Response Service.
 - Location and Contact details.
 
-**Note** : The HTML documents of this project have been validated using the [W3C Markup Validation Service](https://validator.w3.org/). This ensures that the code adheres to web standards and is free of syntax errors.
+4. **style.css** : To styling all HTML files and responsive design  in this project. 
+
+**Note** : The HTML and CSS documents of this project have been validated using the [W3C Markup Validation Service](https://validator.w3.org/). This ensures that the code adheres to web standards and is free of syntax errors.
 
 ## Features 
 
